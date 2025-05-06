@@ -1,0 +1,78 @@
+.para4 {
+  line-height: 115.0000%;
+  margin:  0.0000in 0px 0.0972in 0px;
+}
+
+.para3 {
+  margin:  0.1390in 0px 0.0835in 0px;
+}
+
+.para2 {
+  margin:  0px 0px 0px 0px;
+}
+
+.para1 {
+  margin:  0.0835in 0px 0.0835in 0px;
+}
+
+.para0 {
+  margin:  0.1665in 0px 0.0835in 0px;
+}
+
+.span7 {
+  font-size: 0.58em;
+  position: relative;
+  top: -0.33em;
+  vertical-align: baseline;
+}
+
+.span4 {
+  font-family: 'Liberation Sans';
+  font-size: 18.0000pt;
+  font-weight: bold;
+}
+
+.span5 {
+  font-size: 15.0000pt;
+  font-weight: bold;
+}
+
+.span3 {
+  font-size: 15.0000pt;
+}
+
+.span2 {
+  font-family: 'Liberation Sans';
+  font-size: 0.58em;
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  top: -0.33em;
+  vertical-align: baseline;
+}
+
+.span1 {
+  font-family: 'Liberation Sans';
+  font-size: 17.0000pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.span6 {
+  font-family: 'Liberation Sans';
+  font-size: 25.0000pt;
+  font-weight: bold;
+}
+
+.span0 {
+  font-family: 'Liberation Sans';
+  font-size: 32.0000pt;
+  font-weight: bold;
+}
+
+.body0 {
+  -epub-writing-mode: horizontal-tb;
+  -webkit-writing-mode: horizontal-tb;
+  direction: ltr;
+  writing-mode: horizontal-tb;
+}
