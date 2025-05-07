@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <general>
+        <format>*.flagw</format>
+        <mimetype>Flag Simulator Data File</mimetype>
+        <version>0.02</version>
+        <type>Flag</type>
+        <flagType>Rectangular</flagType>
+        <bitMode>64 bit</bitMode>
+        <datatype>SVG+OGG</datatype>
+        <fileDate>CE2025.05.06@12:29:46PST</fileDate>
+    </general>
+    <flag>
+        <images>
+            <image1> <!-- Front side of the flag !-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="450" height="300"><path fill="#2c5bae" d="M0 0h450v300H0z"/><path fill="#ffaa24" d="M125.313 69.281c-55.521 0-86.937 43.304-86.937 80.719s31.417 80.719 86.938 80.719c26.668 0 53.245-10.106 79.5-23.719-10.01-3.968-19.353-7.088-28.875-8.781-17.86 7.645-34.934 12.5-50.625 12.5-45.234 0-66.937-34.417-66.937-60.719s21.704-60.719 66.938-60.719c15.674 0 32.728 4.874 50.563 12.5 9.537-1.689 18.915-4.841 28.938-8.812-26.247-13.602-52.845-23.687-79.5-23.687zm199.375 0c-40.653 0-70.191 10.981-95.062 21.438s-44.827 19.906-68.75 19.906h-72.25c-7.359 5.584-12.585 12.679-15.875 20h88.125c29.121 0 52.18-11.245 76.5-21.469s50.205-19.875 87.313-19.875c45.234 0 66.937 34.417 66.938 60.719 0 3.823-.515 7.808-1.437 11.844h20.375c.676-3.976 1.063-7.94 1.063-11.844 0-37.415-31.417-80.719-86.937-80.719zM0 110.625v20h30.75c1.66-6.813 4.175-13.546 7.5-20H0zm408.938 0c3.432 6.442 5.976 13.18 7.688 20H450v-20h-41.062zm-43.562.031c-40.638.959-81.652 26.899-122.5 51.438l-22.625 13.344 20.063 8.469 3 1.25 9.813-5.906c41.685-25.041 82.215-48.625 114.563-48.625h12.25c-3.069-7.191-7.861-14.213-14.562-19.969zm-122.125 4.188-2.937 1.219-20.062 8.469 22.625 13.344 10.438 6.25L273 132.531l-19.875-11.781-9.875-5.906zm73.438 40.75c-7.374 3.468-14.994 7.394-22.812 11.656 24.654 12.76 49.321 22.094 73.813 22.094H450v-20h-82.312c-15.385 0-32.669-5.432-51-13.75zM0 169.344v20h38.25c-3.323-6.456-5.843-13.185-7.5-20H0zm72.75 0a51.75 51.75 0 0 0 15.875 20h72.25c23.923 0 43.878 9.45 68.75 19.906s54.409 21.469 95.063 21.469c32.073 0 56.049-14.456 70.625-33.875h-27.437c-10.691 8.333-25.04 13.875-43.187 13.875-37.107 0-62.992-9.682-87.312-19.906s-47.379-21.469-76.5-21.469H72.75z"/></svg>
+            </image1>
+            <image2> <!-- Back side of the flag !-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="450" height="300"><path fill="#2c5bae" d="M0 0h450v300H0z"/><path fill="#ffaa24" d="M125.313 69.281c-55.521 0-86.937 43.304-86.937 80.719s31.417 80.719 86.938 80.719c26.668 0 53.245-10.106 79.5-23.719-10.01-3.968-19.353-7.088-28.875-8.781-17.86 7.645-34.934 12.5-50.625 12.5-45.234 0-66.937-34.417-66.937-60.719s21.704-60.719 66.938-60.719c15.674 0 32.728 4.874 50.563 12.5 9.537-1.689 18.915-4.841 28.938-8.812-26.247-13.602-52.845-23.687-79.5-23.687zm199.375 0c-40.653 0-70.191 10.981-95.062 21.438s-44.827 19.906-68.75 19.906h-72.25c-7.359 5.584-12.585 12.679-15.875 20h88.125c29.121 0 52.18-11.245 76.5-21.469s50.205-19.875 87.313-19.875c45.234 0 66.937 34.417 66.938 60.719 0 3.823-.515 7.808-1.437 11.844h20.375c.676-3.976 1.063-7.94 1.063-11.844 0-37.415-31.417-80.719-86.937-80.719zM0 110.625v20h30.75c1.66-6.813 4.175-13.546 7.5-20H0zm408.938 0c3.432 6.442 5.976 13.18 7.688 20H450v-20h-41.062zm-43.562.031c-40.638.959-81.652 26.899-122.5 51.438l-22.625 13.344 20.063 8.469 3 1.25 9.813-5.906c41.685-25.041 82.215-48.625 114.563-48.625h12.25c-3.069-7.191-7.861-14.213-14.562-19.969zm-122.125 4.188-2.937 1.219-20.062 8.469 22.625 13.344 10.438 6.25L273 132.531l-19.875-11.781-9.875-5.906zm73.438 40.75c-7.374 3.468-14.994 7.394-22.812 11.656 24.654 12.76 49.321 22.094 73.813 22.094H450v-20h-82.312c-15.385 0-32.669-5.432-51-13.75zM0 169.344v20h38.25c-3.323-6.456-5.843-13.185-7.5-20H0zm72.75 0a51.75 51.75 0 0 0 15.875 20h72.25c23.923 0 43.878 9.45 68.75 19.906s54.409 21.469 95.063 21.469c32.073 0 56.049-14.456 70.625-33.875h-27.437c-10.691 8.333-25.04 13.875-43.187 13.875-37.107 0-62.992-9.682-87.312-19.906s-47.379-21.469-76.5-21.469H72.75z"/></svg>
+            </image2>
+            <image3> <!-- Flag pole !-->
+                <null></null>
+            </image3>
+        </images>
+        <materials>
+            <material1>Cloth</material1>
+        </materials>
+        <description>
+            <p>The International Federation of Vexillological Associations (French: Fédération internationale des associations vexillologiques; FIAV) is an international federation of 53 regional, national, and multinational associations and institutions across the globe that study vexillology, which FIAV defines in its constitution as "the creation and development of a body of knowledge about flags of all types, their forms and functions, and of scientific theories and principles based on that knowledge."</p>
+        </description>
+        <license>
+            <image1-license>SPDX:CC-BY-SA-2.5</image1-license>
+            <image1-other>This image contains official insignia which may be subject to legal restrictions.</image1-other>
+            <image2-license>SPDX:CC-BY-SA-2.5</image2-license>
+            <image2-other>This image contains official insignia which may be subject to legal restrictions.</image2-other>
+            <image3-license>Public Domain</image3-license>
+            <image3-other>No Copyright</image3-other>
+        </license>
+        <construction>
+            <construction-sheet>
+                <svg>NULL</svg>
+            </construction-sheet>
+        </construction>
+        <fold>
+            <isFolded>False</isFolded>
+        </fold>
+        <search-terms>
+            <kwords>Keywords: FIAV, Flag, International</kword>
+            <emoji>None</emoji>
+            <emojiRegionalIndicators>🇦🏳️</emojiRegionalIndicators>
+        </search-terms>
+        <flagcode>This flag has no dedined flag code</flagcode>
+        <effects>No effects enabled</effects>
+        <wind>
+            <gustKnots>3 knots</gustKnots>
+        </wind>
+        <censors>
+            <isPolitical>False</isPolitical> <!-- A VOTE FOR JOHN DOE flag would be a political flag !-->
+            <isReligious>False</isReligious>
+            <isHateSymbol>False</isHateSymbol>
+            <isSexSymbol>False</isSexSymbol> <!-- LGTBQ+ flags are considered sex symbols !-->
+            <isSocialistSymbol>False</isSocialistSymbol>
+            <isAnarchistSymbol>False</isAnarchistSymbol>
+            <isTreasonSymbol>False</isTreasonSymbol> <!-- Separatist flags are considered treason symbols !-->
+        </censors>
+        <weather>
+            <simulation>Weather1.weatherdata</simulation>
+        </weather>
+        <age-rating>0+</age-rating>
+        <sfx>
+            <tearSFX>
+                <name>FlagTear.ogg</name>
+                <ogg>
+                </ogg>
+            </tearSFX>
+            <gustSFX>
+                <name>FlagGust.ogg</name>
+                <ogg>
+                </ogg>
+            </gustSFX>
+            <burnSFX>
+                <name>FlagBurn.ogg</name>
+                <ogg>
+                </ogg>
+            </burnSFX>
+        </sfx>
+        <ascii>
+            <isAscii>False</isAscii> <!-- Determines whether it is in ASCII mode !-->
+            <asciiData>
+            | Placeholder |
+            </asciiData>
+            <asciiColors>False</asciiColors>
+            <asciiColorMode>8 bit</asciiColorMode>
+        </ascii>
+        <effects>
+            <canBurn>False</canBurn>
+            <canTear>True</canTear>
+            <canSmear>False</canSmear>
+            <canDampen>True</canDampen>
+            <acidRain>False</acidRain>
+        </effects>
+        <sizeLimit>9223372036854775807spx</sizeLimit> <!-- Square pixels !-->
+        <opacity>100%</opacity>
+        <transparency>0%</transparency>
+        <hoistPosition>Left</hoistPosition>
+    </flag>
+    <pole>
+        <pole-w>Width: 500</pole-w>
+        <pole-h>Height: 10000</pole-h>
+        <pole-material>Aluminum</pole-material>
+    </pole>
+    <audio>
+        <anthem>
+            <anthem1>
+                <ogg>
+                    <p>No anthem available</p>
+                </ogg>
+            </anthem1>
+        </anthem>
+    </audio>
+    <background>
+        <bgimage>
+            <bgimg1>
+                <image1>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 105.833 105.833" xmlns:v="https://vecta.io/nano"><style><![CDATA[.B{stroke:#000}.C{stroke-width:.441}.D{stroke-linejoin:round}.E{fill:#55b0ff}.F{fill:#55ff89}.G{fill:#f5f}.H{font-family:sans-serif}]]></style><g class="B C D G"><use xlink:href="#B"/><use xlink:href="#B" x="4.619" y="-5.334"/><use xlink:href="#B" x="-2.309" y="-6.667"/></g><g class="E B C D"><use xlink:href="#C"/><use xlink:href="#C" x="9.239" y="-10.668"/><use xlink:href="#D"/><use xlink:href="#E"/><use xlink:href="#F"/><use xlink:href="#F" x="9.238" y="-10.668"/></g><use xlink:href="#G" class="B C D F"/><g class="E B C D"><use xlink:href="#H"/><use xlink:href="#H" x="-4.619" y="-13.335"/><use xlink:href="#E" x="13.859" y="2.667"/><use xlink:href="#D" x="13.858" y="2.666"/><use xlink:href="#I"/><use xlink:href="#I" x="-4.62" y="-13.335"/></g><g class="F B C D"><use xlink:href="#J"/><use xlink:href="#K"/></g><g class="G B C D"><use xlink:href="#B" x="32.335"/><use xlink:href="#B" x="36.955" y="-5.334"/><use xlink:href="#B" x="30.026" y="-6.667"/></g><g class="E B C D"><use xlink:href="#C" x="32.335"/><use xlink:href="#C" x="41.574" y="-10.668"/><use xlink:href="#D" x="32.335" y="-0.001"/><use xlink:href="#E" x="32.335"/><use xlink:href="#F" x="32.335"/><use xlink:href="#F" x="41.573" y="-10.668"/></g><use xlink:href="#G" x="32.335" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="27.716" y="-13.335"/><use xlink:href="#D" x="46.193" y="2.666"/><use xlink:href="#I" x="27.715" y="-13.335"/></g><g class="F B C D"><use xlink:href="#J" x="32.335"/><use xlink:href="#K" x="32.335"/></g><g class="G B C D"><use xlink:href="#B" x="-32.335" y="0.001"/><use xlink:href="#B" x="-27.716" y="-5.333"/><use xlink:href="#B" x="-34.645" y="-6.667"/></g><g class="E B C D"><use xlink:href="#C" x="-32.335"/><use xlink:href="#C" x="-23.096" y="-10.668"/><use xlink:href="#D" x="-32.335"/><use xlink:href="#E" x="-32.335"/><use xlink:href="#F" x="-32.335"/><use xlink:href="#F" x="-23.097" y="-10.668"/></g><use xlink:href="#G" x="-32.335" y="0.001" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-32.335"/><use xlink:href="#H" x="-36.955" y="-13.335"/><use xlink:href="#E" x="-18.477" y="2.668"/><use xlink:href="#D" x="-18.477" y="2.666"/><use xlink:href="#I" x="-32.335"/><use xlink:href="#I" x="-36.955" y="-13.335"/></g><g class="F B C D"><use xlink:href="#J" x="-32.335"/><use xlink:href="#K" x="-32.335"/></g><g class="E B C D"><use xlink:href="#C" x="-55.432" y="-10.668"/><use xlink:href="#E" x="-64.67"/><use xlink:href="#F" x="-55.432" y="-10.668"/></g><use xlink:href="#G" x="-64.67" y="0.001" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-64.67"/><use xlink:href="#H" x="-69.29" y="-13.335"/><use xlink:href="#E" x="-50.812" y="2.668"/><use xlink:href="#D" x="-50.812" y="2.667"/><use xlink:href="#I" x="-64.671"/><use xlink:href="#I" x="-69.29" y="-13.334"/></g><g class="F B C D"><use xlink:href="#J" x="-64.67" y="0.001"/><use xlink:href="#K" x="-64.67"/></g><g class="G B C D"><use xlink:href="#B" x="16.168" y="28.003"/><use xlink:href="#B" x="20.787" y="22.669"/><use xlink:href="#B" x="13.858" y="21.335"/></g><g class="E B C D"><use xlink:href="#C" x="16.168" y="28.002"/><use xlink:href="#C" x="25.406" y="17.334"/><use xlink:href="#D" x="16.167" y="28.002"/><use xlink:href="#E" x="16.168" y="28.002"/><use xlink:href="#F" x="16.167" y="28.002"/><use xlink:href="#F" x="25.406" y="17.334"/></g><use xlink:href="#G" x="16.168" y="28.003" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="16.167" y="28.002"/><use xlink:href="#H" x="11.548" y="14.667"/><use xlink:href="#E" x="30.026" y="30.67"/><use xlink:href="#D" x="30.025" y="30.669"/><use xlink:href="#I" x="16.167" y="28.002"/><use xlink:href="#I" x="11.548" y="14.668"/></g><g class="F B C D"><use xlink:href="#J" x="16.167" y="28.003"/><use xlink:href="#K" x="16.168" y="28.002"/></g><g class="G B C D"><use xlink:href="#B" x="48.503" y="28.003"/><use xlink:href="#B" x="53.122" y="22.669"/><use xlink:href="#B" x="46.193" y="21.335"/></g><g class="E B C D"><use xlink:href="#C" x="48.503" y="28.002"/><use xlink:href="#D" x="48.502" y="28.002"/><use xlink:href="#F" x="48.502" y="28.002"/></g><g class="G B C D"><use xlink:href="#B" x="-16.167" y="28.003"/><use xlink:href="#B" x="-11.548" y="22.669"/><path d="M36.749 62.251L32.9 63.584l-3.08-2.667.77-4.001 3.849-1.333 3.08 2.667z"/></g><g class="E B C D"><use xlink:href="#C" x="-16.167" y="28.002"/><use xlink:href="#C" x="-6.929" y="17.335"/><use xlink:href="#D" x="-16.168" y="28.002"/><use xlink:href="#E" x="-16.167" y="28.003"/><use xlink:href="#F" x="-16.168" y="28.002"/><use xlink:href="#F" x="-6.929" y="17.335"/></g><use xlink:href="#G" x="-16.168" y="28.003" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-16.168" y="28.002"/><use xlink:href="#H" x="-20.787" y="14.667"/><use xlink:href="#E" x="-2.309" y="30.67"/><use xlink:href="#D" x="-2.31" y="30.669"/><use xlink:href="#I" x="-16.168" y="28.003"/><use xlink:href="#I" x="-20.787" y="14.668"/></g><g class="F B C D"><use xlink:href="#J" x="-16.168" y="28.003"/><use xlink:href="#K" x="-16.167" y="28.002"/></g><g class="G B C D"><use xlink:href="#B" x="-48.502" y="28.003"/><use xlink:href="#B" x="-43.883" y="22.669"/><path d="M4.414 62.251L.564 63.584l-3.08-2.667.77-4.001 3.849-1.333 3.08 2.667z"/></g><g class="E B C D"><use xlink:href="#C" x="-48.503" y="28.003"/><use xlink:href="#C" x="-39.264" y="17.335"/><use xlink:href="#D" x="-48.503" y="28.002"/><use xlink:href="#E" x="-48.502" y="28.003"/><use xlink:href="#F" x="-48.503" y="28.003"/><use xlink:href="#F" x="-39.264" y="17.335"/></g><use xlink:href="#G" x="-48.503" y="28.003" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-48.503" y="28.002"/><use xlink:href="#H" x="-53.122" y="14.668"/><use xlink:href="#E" x="-34.644" y="30.67"/><use xlink:href="#D" x="-34.645" y="30.669"/><use xlink:href="#I" x="-48.503" y="28.003"/><use xlink:href="#I" x="-53.122" y="14.668"/></g><g class="F B C D"><use xlink:href="#J" x="-48.503" y="28.003"/><use xlink:href="#K" x="-48.502" y="28.003"/></g><g class="G B C D"><use xlink:href="#B" y="56.005"/><use xlink:href="#B" x="4.619" y="50.671"/><use xlink:href="#B" x="-2.31" y="49.338"/></g><g class="E B C D"><use xlink:href="#C" y="56.005"/><use xlink:href="#C" x="9.239" y="45.337"/><use xlink:href="#D" y="56.005"/><use xlink:href="#E" y="56.005"/><use xlink:href="#F" y="56.005"/><use xlink:href="#F" x="9.238" y="45.337"/></g><use xlink:href="#G" y="56.005" class="B C D F"/><g class="E B C D"><use xlink:href="#H" y="56.005"/><use xlink:href="#H" x="-4.62" y="42.67"/><use xlink:href="#E" x="13.858" y="58.672"/><use xlink:href="#D" x="13.858" y="58.671"/><use xlink:href="#I" y="56.005"/><use xlink:href="#I" x="-4.62" y="42.67"/></g><g class="F B C D"><use xlink:href="#J" y="56.005"/><use xlink:href="#K" y="56.005"/></g><g class="G B C D"><use xlink:href="#B" x="32.335" y="56.005"/><use xlink:href="#B" x="36.954" y="50.671"/><use xlink:href="#B" x="30.026" y="49.338"/></g><g class="E B C D"><use xlink:href="#C" x="32.335" y="56.005"/><use xlink:href="#C" x="41.574" y="45.337"/><use xlink:href="#D" x="32.335" y="56.004"/><use xlink:href="#E" x="32.335" y="56.005"/><use xlink:href="#F" x="32.335" y="56.005"/><use xlink:href="#F" x="41.573" y="45.337"/></g><use xlink:href="#G" x="32.335" y="56.005" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="27.716" y="42.67"/><use xlink:href="#D" x="46.193" y="58.671"/><use xlink:href="#I" x="27.715" y="42.67"/></g><g class="F B C D"><use xlink:href="#J" x="32.335" y="56.005"/><use xlink:href="#K" x="32.335" y="56.005"/></g><g class="G B C D"><use xlink:href="#B" x="-32.335" y="56.006"/><use xlink:href="#B" x="-27.716" y="50.672"/><use xlink:href="#B" x="-34.645" y="49.338"/></g><g class="E B C D"><use xlink:href="#C" x="-32.335" y="56.005"/><use xlink:href="#C" x="-23.097" y="45.337"/><use xlink:href="#D" x="-32.335" y="56.005"/><use xlink:href="#E" x="-32.335" y="56.005"/><use xlink:href="#F" x="-32.335" y="56.005"/><use xlink:href="#F" x="-23.097" y="45.337"/></g><use xlink:href="#G" x="-32.335" y="56.005" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-32.335" y="56.005"/><use xlink:href="#H" x="-36.955" y="42.67"/><use xlink:href="#E" x="-18.477" y="58.673"/><use xlink:href="#D" x="-18.477" y="58.671"/><use xlink:href="#I" x="-32.336" y="56.005"/><use xlink:href="#I" x="-36.955" y="42.67"/></g><g class="F B C D"><use xlink:href="#J" x="-32.335" y="56.005"/><use xlink:href="#K" x="-32.335" y="56.005"/></g><g class="E B C D"><use xlink:href="#C" x="-55.432" y="45.337"/><use xlink:href="#E" x="-64.67" y="56.005"/><use xlink:href="#F" x="-55.432" y="45.337"/></g><use xlink:href="#G" x="-64.67" y="56.006" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-64.67" y="56.005"/><use xlink:href="#H" x="-69.29" y="42.67"/><use xlink:href="#E" x="-50.812" y="58.673"/><use xlink:href="#D" x="-50.812" y="58.672"/><use xlink:href="#I" x="-64.671" y="56.005"/><use xlink:href="#I" x="-69.29" y="42.671"/></g><g class="F B C D"><use xlink:href="#J" x="-64.67" y="56.006"/><use xlink:href="#K" x="-64.67" y="56.005"/></g><g class="G B C D"><use xlink:href="#B" x="16.168" y="-28.003"/><path d="M76.013 7.578l-3.849 1.333-3.08-2.667.77-4.001L73.703.911l3.08 2.667z"/><use xlink:href="#B" x="13.858" y="-34.67"/></g><g class="E B C D"><use xlink:href="#C" x="16.167" y="-28.003"/><use xlink:href="#C" x="25.406" y="-38.671"/><use xlink:href="#D" x="16.167" y="-28.003"/><use xlink:href="#E" x="16.168" y="-28.003"/><use xlink:href="#F" x="16.167" y="-28.003"/><use xlink:href="#F" x="25.406" y="-38.671"/></g><use xlink:href="#G" x="16.167" y="-28.003" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="16.167" y="-28.003"/><use xlink:href="#H" x="11.548" y="-41.338"/><use xlink:href="#E" x="30.026" y="-25.336"/><use xlink:href="#D" x="30.025" y="-25.337"/><use xlink:href="#I" x="16.167" y="-28.003"/><use xlink:href="#I" x="11.548" y="-41.338"/></g><g class="F B C D"><use xlink:href="#J" x="16.167" y="-28.003"/><use xlink:href="#K" x="16.168" y="-28.003"/></g><g class="G B C D"><use xlink:href="#B" x="48.503" y="-28.003"/><use xlink:href="#B" x="53.122" y="-33.337"/><path d="M101.419 6.245L97.57 7.578l-3.08-2.667.77-4.001 3.849-1.333 3.08 2.667z"/></g><g class="E B C D"><use xlink:href="#C" x="48.503" y="-28.003"/><use xlink:href="#D" x="48.502" y="-28.004"/><use xlink:href="#F" x="48.502" y="-28.003"/></g><g class="G B C D"><use xlink:href="#B" x="-16.168" y="-28.002"/><path d="M43.678 7.579l-3.849 1.333-3.08-2.667.77-4.001L41.368.911l3.08 2.667z"/><use xlink:href="#B" x="-18.477" y="-34.67"/></g><g class="E B C D"><use xlink:href="#C" x="-16.168" y="-28.003"/><use xlink:href="#C" x="-6.929" y="-38.671"/><use xlink:href="#D" x="-16.168" y="-28.003"/><use xlink:href="#E" x="-16.167" y="-28.003"/><use xlink:href="#F" x="-16.168" y="-28.003"/><use xlink:href="#F" x="-6.929" y="-38.671"/></g><use xlink:href="#G" x="-16.168" y="-28.002" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-16.168" y="-28.003"/><use xlink:href="#H" x="-20.787" y="-41.338"/><use xlink:href="#E" x="-2.309" y="-25.335"/><use xlink:href="#D" x="-2.31" y="-25.337"/><use xlink:href="#I" x="-16.168" y="-28.003"/><use xlink:href="#I" x="-20.788" y="-41.338"/></g><g class="F B C D"><use xlink:href="#J" x="-16.168" y="-28.003"/><use xlink:href="#K" x="-16.167" y="-28.003"/></g><g class="G B C D"><use xlink:href="#B" x="-48.503" y="-28.002"/><path d="M11.343 7.579L7.493 8.912l-3.08-2.667.77-4.001L9.033.912l3.08 2.667z"/><path d="M4.414 6.245L.564 7.579l-3.08-2.667.77-4.001L2.104-.422l3.08 2.667z"/></g><g class="E B C D"><use xlink:href="#C" x="-48.503" y="-28.003"/><use xlink:href="#C" x="-39.264" y="-38.671"/><use xlink:href="#D" x="-48.503" y="-28.003"/><use xlink:href="#E" x="-48.503" y="-28.003"/><use xlink:href="#F" x="-48.503" y="-28.003"/><use xlink:href="#F" x="-39.264" y="-38.671"/></g><use xlink:href="#G" x="-48.503" y="-28.002" class="B C D F"/><g class="E B C D"><use xlink:href="#H" x="-48.503" y="-28.003"/><use xlink:href="#H" x="-53.122" y="-41.338"/><use xlink:href="#E" x="-34.644" y="-25.335"/><use xlink:href="#D" x="-34.645" y="-25.336"/><use xlink:href="#I" x="-48.503" y="-28.003"/><use xlink:href="#I" x="-53.123" y="-41.337"/></g><g class="F B C D"><use xlink:href="#J" x="-48.503" y="-28.002"/><use xlink:href="#K" x="-48.502" y="-28.003"/></g><g class="E B C D"><path d="M66.774-.423L62.924.911l-3.08-2.667 1.54-8.001 6.159 5.334z"/><use xlink:href="#E" x="13.858" y="-53.338"/><path d="M66.775-.423l3.08 2.667L73.703.911l1.54-8.001-7.699 2.667zm32.334 0L95.26.91l-3.08-2.667 1.54-8.001 6.159 5.334z"/><use xlink:href="#D" x="46.193" y="-53.34"/><path d="M34.439-.423L30.589.911l-3.08-2.667 1.54-8.001 6.159 5.334z"/><use xlink:href="#E" x="-18.477" y="-53.338"/><path d="M34.439-.422l3.08 2.667L41.368.911l1.54-8.001-7.699 2.667zm-32.335 0L-1.746.911l-3.08-2.667 1.54-8.001 6.159 5.334zm13.858 2.667l-3.849 1.333L9.033.912l1.54-8.001 6.159 5.334z"/><path d="M2.104-.422l3.08 2.667L9.033.911l1.54-8.001-7.699 2.667z"/><use xlink:href="#H" x="-80.838" y="-28.002"/><use xlink:href="#I" x="-80.838" y="-28.002"/><use xlink:href="#H" x="-80.838" y="28.003"/><use xlink:href="#I" x="-80.838" y="28.003"/></g><text xml:space="preserve" transform="scale(.26458333)" style="white-space:pre" font-size="453.333" fill="#000" class="H"><tspan x="19.25" y="583.248"><tspan font-size="5.333">c</tspan></tspan></text><defs ><path id="B" d="M55.226 40.915l-3.849 1.333-3.08-2.667.77-4.001 3.849-1.333 3.08 2.667z"/><path id="C" d="M55.996 36.915l3.849-1.333 3.08 2.667-1.54 8.001-6.159-5.334z"/><path id="D" d="M52.917 52.917l3.08 2.667 3.849-1.333 1.54-8.001-7.699 2.667z"/><path id="E" d="M66.774 55.583l-3.849 1.333-3.08-2.667 1.54-8.001 6.159 5.334z"/><path id="F" d="M51.377 42.249l3.849-1.333 6.159 5.334-7.699 2.667-3.08-2.667z"/><path id="G" d="M62.925 38.248l-1.54 8.001 7.698-2.667 1.54-8z"/><path id="H" d="M83.712 42.249l-3.08-2.667-3.849 1.333-1.54 8.001 7.699-2.667z"/><path id="I" d="M86.022 48.916l-3.08-2.667-7.699 2.667 6.159 5.334 3.849-1.333z"/><path id="J" d="M76.783 40.915l-1.54 8.001-6.159-5.334 1.54-8z"/><path id="K" d="M61.385 46.249l6.159 5.334 7.699-2.667-6.159-5.334z"/></defs></svg>
+                </image1>
+                <image1-license>SPDX:CC-BY-SA-4.0</image1-license>
+                <image1-other>This image has limited restrictions</image1-other> 
+                <imageStyle>Fill</imageStyle> <!-- Options: Fill, tile, stretch, center !-->
+            <bgimg1>
+            <slideshow>False</slideshow>
+            <slideshowDuration>10 seconds per frame</slideshowDuration> <!-- Display each image for 10 seconds, before going to the next image !-->
+        </bgimage>
+        <bgvideo>
+            <bgvid1>
+                <mp4>Null</mp4>
+            </bgvid1>
+            <slideshow>False</slideshow>
+            <slideshowDuration>1 loop per show</slideshowDuration> <!-- Loop the video once, then go to the next video !-->
+        </bgvideo>
+    </background>
+</xml>
