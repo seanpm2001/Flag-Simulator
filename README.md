@@ -904,6 +904,8 @@ _End of database listing._
 
 <details open><summary><p><b>Click/tap here to expand/collapse the Variants section</b></p></summary>
 
+See: [`Flag-Simulator_REPOLIST.urll`](/Flag-Simulator_REPOLIST.urll/)
+
 ### Web Applications
 
 <details open><summary><p><b>Click/tap here to expand/collapse the Web Applications section</b></p></summary>
@@ -1012,7 +1014,6 @@ The current targets for development are Debian, Ubuntu, and Raspberry Pi OS. Oth
 | Chromium | ❌️ |
 | Trident | ❌️ |
 | Presto | ❌️ |
-| Trident | ❌️ |
 | Goanna | ✅️ |
 
 | 🌐️ Browser | 🎯️ Target? |
@@ -1035,6 +1036,11 @@ The current targets for development are Debian, Ubuntu, and Raspberry Pi OS. Oth
 | Dillo | ❌️ |
 | Line Mode Browser | ❌️ |
 | Tor | ❓️ |
+| iCab | ❌️ |
+| Basilisk | ❌️ |
+| SeaMonkey | ❌️ |
+| LibreWolf | ❌️ |
+| K-Meleon | ❌️ |
 
 | Legend |
 |---|
@@ -1054,6 +1060,84 @@ The current targets for development are Debian, Ubuntu, and Raspberry Pi OS. Oth
 The core Flag Simulator repository will contain some of the key media resources (such as logos, some of the essential flags, icons, wallpapers) while the database repositories will hold the rest. Desktop Applications, Mobile Applications, and Web Applications will be programmed to use these resources (maybe as submodules)
 
 </details> <!-- End of Repository plan section !-->
+
+***
+
+### Libraries
+
+<details open><summary><p><b>Click/tap here to expand/collapse the LIBraries section</b></p></summary>
+
+**Internal LIBraries**
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Internal LIBraries section</b></p></summary>
+
+- [`LIB/Accessories`](/LIB/Accessories/)
+- [`LIB/Audio`](/LIB/Audio/)
+- [`LIB/Background-Images`](/LIB/Background-Images/)	
+- [`LIB/Background-Videos`](/LIB/Background-Videos/)	
+- [`LIB/Construction-Sheets`](/LIB/Construction-Sheets/)
+- [`LIB/Flag-Poles`](/LIB/Flag-Poles/)
+- [`LIB/Flags`](/LIB/Flags/)
+- [`LIB/Logos`](/LIB/Logos/)
+- [`LIB/Flags`](/LIB/Shaders/)
+- [`LIB/UI`](/LIB/UI/)
+- [`LIB/Weather`](/LIB/Weather/)
+
+</details> <!-- End of Internal LIBraries section !-->
+
+**Third-party LIBraries**
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Third-party LIBraries section</b></p></summary>
+
+- None decided on yet
+
+</details> <!-- End of 3rd party LIBraries section !-->
+
+_End of LIBrary listing._
+
+</details> <!-- End of LIBraries section !-->
+
+***
+
+### Installation
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Installation section</b></p></summary>
+
+See: [`INSTALL.rst`](/INSTALL.rst) [OUTDATED, as of 2025, Wednesday, May 7th)
+
+</details> <!-- End of installation section !-->
+
+***
+
+### Credits
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Credits section</b></p></summary>
+
+See: [`CREDITS.wiki`](/CREDITS.wiki) [OUTDATED, as of 2025, Wednesday, May 7th)
+
+</details> <!-- End of Credits section !-->
+
+***
+
+### Authors
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Authors section</b></p></summary>
+
+See: [`AUTHORS.md`](/AUTHORS.md) [OUTDATED, as of 2025, Wednesday, May 7th)
+
+</details> <!-- End of Authors section !-->
+
+***
+
+### Documentation
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Documentation section</b></p></summary>
+
+Documentation is housed in a separate repository.
+
+- [:octocat: `Click/tap here to go to the Flag Simulator documentation repository`](https://github.com/seanpm2001/Flag-Simulator_Docs/)
+
+</details> <!-- End of Documentation section !-->
 
 ***
 
@@ -1213,11 +1297,11 @@ Feature checklist in README
 <details open><summary><p lang="en">Click/tap here to expand/collapse this section</p></summary>
 
 - **File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
-- **File version:** `2 (2025, Tuesday, May 6th at 05:40 pm PST)`
-- **Line count (including blank lines and compiler line):** `01,369`
-- **Word count:** `07,120`
-- **Character count (with spaces):** `047,998 characters`
-- **Character count (without spaces)** `040,789 characters`
+- **File version:** `3 (2025, Wednesday, May 7th at 06:38 pm PST)`
+- **Line count (including blank lines and compiler line):** `01,480`
+- **Word count:** `07,535`
+- **Character count (with spaces):** `051,007 characters`
+- **Character count (without spaces)** `043,410 characters`
 - **Current article language:** `English (EN_USA) for main article` / `Markdown (CommonMark)` / `HTML (HTML 5.3)`
 - **Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
 - **All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
@@ -1355,7 +1439,34 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 
 </details> <!-- End of V2:File History !-->
 
+## Version 3 (2025, Wednesday, May 7th at 06:38 pm PST)
+
+<details open><summary><p><b>Click/tap here to expand/collapse the file history section entry for version 3</b></p></summary>
+
+> **Note:** _This is the third version._
+
+> **Changes:**
+
+- [x] Updated the File info section
+- [x] Updated the File History section
+- [x] Added the Documentation section
+- [x] Added the LIBraries section
+- [x] Added the Installation section
+- [x] Added the Credits section
+- [x] Added the Authors section
+- [x] Updated the current development target section
+- [ ] No other changes in version 3
+
+</details> <!-- End of V3:File History !-->
+
 _End of file history section._
+
+<!-- TODO
+What to add next (V4):
+Table of contents
+Language switcher
+File listing
+!-->
 
 </details> <!-- End of File History !-->
 
