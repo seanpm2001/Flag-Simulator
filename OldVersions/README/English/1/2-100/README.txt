@@ -21,6 +21,159 @@ It is intended to be an improvement over [:octocat: `Krikienoid/FlagWaver`](http
 
 </details>
 
+***
+
+## Table of Contents
+
+- [00.00 - Title](#Flag-Simulator)
+- [00.01 - Table of contents](#Table-of-contents)
+- [00.02 - Read this article in a different language](#Read-this-article-in-a-different-language)
+- [00.03 - This repository](#This-repository)
+- [01.00 - Features](#Features)
+- - [01.01 - Featured flags](#Featured-flags)
+- - [01.02 - Flag physics](#Flag-physucs)
+- - [01.03 - Flag direction](#Flag-direction)
+- - [01.04 - Wind direction](#Wind-direction)
+- - [01.05 - Wind control](#Wind-control)
+- - [01.06 - Barometric pressure](#Barometric-pressured)
+- - [01.07 - Different backgrounds](#Different-backgrounds)
+- - [01.08 - Background videos](#Background-videos)
+- - [01.09 - Export](#Export)
+- - [01.10 - Embed into a webpage](#Embed-into-a-webpage)
+- - [01.11 - Database of flags](#Database-of-flags)
+- - [01.12 - Upload custom flags](#Upload-custom-flags)
+- - [01.13 - Pennants](#Pennants)
+- - [01.14 - Multiple flags](#Multiple-flags)
+- - [01.15 - Information on each flag](#Information-on-each-flag)
+- - [01.16 - FlagW file (waving flag data file)](#FlagW-file-waving-flag-data-file)
+- - [01.17 - Flag burning](#Flag-burning)
+- - [01.18 - Information on religious flags](#Information-on-religious-flags)
+- - [01.19 - Flag tearing](#Flag-tearing)
+- - [01.20 - Half mast](#Half-mast)
+- - [01.21 - Waving/lowering](#Waving-lowering)
+- - [01.22 - Customizable flag poles](#Customizable-flag-poles)
+- - [01.23 - Totem pole library](#Totem-pole-library)
+- - [01.24 - Flag poles](#Flag-poles)
+- - ... INCOMPLETE ...
+- [02.00 - Feedback](#Feedback)
+- - [02.01 - Feedback from 2025, April](#Feedback-from-2025-April)
+- [03.00 - Databases](#Databases)
+- - [03.01 - Flags Of The World (FOTW)](#Flags-Of-The-World-FOTW)
+- [04.00 - Variants](#Variants)
+- - [04.01 - Web applications](#Web-Applications)
+- - [04.02 - Desktop applications](#Desktop-Applications)
+- - [04.03 - Mobile applications](#Mobile-Applications)
+- - [04.04 - Snapcraft](#Snapcraft)
+- [05.00 - Current development target](#Current-development-target)
+- [06.00 - Repository plan](#Repository-plan)
+- [07.00 - LIBraries](#LIBraries)
+- [08.00 - Installation](#Installation)
+- [09.00 - Authors](#Authors)
+- [10.00 - Credits](#Credits)
+- [11.00 - Documentation](#Documentation)
+- [12.00 - Concept from 2025.04.23](#Concept-2025.04.23)
+- [13.00 - Common tags](#Common-tags)
+- [14.00 - File Info](#File-info)
+- [15.00 - File History](#File-history)
+- [16.00 - Footer](#Footer)
+- - [16.99 - EOF](#EOF)
+
+***
+
+<!-- /%/2001_TRANSLATE_SECTION.BEGIN\%\ !-->
+
+## Read this article in a different language
+
+<details open><summary><p><b>Click/tap here to expand/collapse the language switcher section</b></p></summary>
+
+**Sorted by:** `A-Z`
+
+[Sorting options unavailable](https://github.com/seanpm2001/Flag-Simulator/)
+
+( [af Afrikaans](/.github/README_AF.md) Afrikaans | [sq Shqiptare](/.github/README_SQ.md) Albanian | [am አማርኛ](/.github/README_AM.md) Amharic | [ar عربى](/.github/README_AR.md) Arabic | [hy հայերեն](/.github/README_HY.md) Armenian | [az Azərbaycan dili](/.github/README_AZ.md) Azerbaijani | [eu Euskara](/.github/README_EU.md) Basque | [be Беларуская](/.github/README_BE.md) Belarusian | [bn বাংলা](/.github/README_BN.md) Bengali | [bs Bosanski](/.github/README_BS.md) Bosnian | [bg български](/.github/README_BG.md) Bulgarian | [ca Català](/.github/README_CA.md) Catalan | [ceb Sugbuanon](/.github/README_CEB.md) Cebuano | [ny Chichewa](/.github/README_NY.md) Chichewa | [zh-CN 简体中文](/.github/README_ZH-CN.md) Chinese (Simplified) | [zh-t 中國傳統的）](/.github/README_ZH-T.md) Chinese (Traditional) | [co Corsu](/.github/README_CO.md) Corsican | [hr Hrvatski](/.github/README_HR.md) Croatian | [cs čeština](/.github/README_CS.md) Czech | [da dansk](README_DA.md) Danish | [nl Nederlands](/.github/README_NL.md) Dutch | [**en-us English**](/.github/README.md) English |  [EO Esperanto](/.github/README_EO.md) Esperanto | [et Eestlane](/.github/README_ET.md) Estonian | [tl Pilipino](/.github/README_TL.md) Filipino | [fi Suomalainen](/.github/README_FI.md) Finnish |  [fr français](/.github/README_FR.md) French | [fy Frysk](/.github/README_FY.md) Frisian | [gl Galego](/.github/README_GL.md) Galician | [ka ქართველი](/.github/README_KA) Georgian | [de Deutsch](/.github/README_DE.md) German | [el Ελληνικά](/.github/README_EL.md) Greek | [gu ગુજરાતી](/.github/README_GU.md) Gujarati | [ht Kreyòl ayisyen](/.github/README_HT.md) Haitian Creole | [ha Hausa](/.github/README_HA.md) Hausa | [haw Ōlelo Hawaiʻi](/.github/README_HAW.md) Hawaiian | [he עִברִית](/.github/README_HE.md) Hebrew | [hi हिन्दी](/.github/README_HI.md) Hindi | [hmn Hmong](/.github/README_HMN.md) Hmong | [hu Magyar](/.github/README_HU.md) Hungarian | [is Íslenska](/.github/README_IS.md) Icelandic | [ig Igbo](/.github/README_IG.md) Igbo | [id bahasa Indonesia](/.github/README_ID.md) Icelandic | [ga Gaeilge](/.github/README_GA.md) Irish | [it Italiana/Italiano](/.github/README_IT.md) | [ja 日本語](/.github/README_JA.md) Japanese | [jw Wong jawa](/.github/README_JW.md) Javanese | [kn ಕನ್ನಡ](/.github/README_KN.md) Kannada | [kk Қазақ](/.github/README_KK.md) Kazakh | [km ខ្មែរ](/.github/README_KM.md) Khmer | [rw Kinyarwanda](/.github/README_RW.md) Kinyarwanda | [ko-south 韓國語](/.github/README_KO_SOUTH.md) Korean (South) | [ko-north 문화어](README_KO_NORTH.md) Korean (North) (NOT YET TRANSLATED) | [ku Kurdî](/.github/README_KU.md) Kurdish (Kurmanji) | [ky Кыргызча](/.github/README_KY.md) Kyrgyz | [lo ລາວ](/.github/README_LO.md) Lao | [la Latine](/.github/README_LA.md) Latin | [lt Lietuvis](/.github/README_LT.md) Lithuanian | [lb Lëtzebuergesch](/.github/README_LB.md) Luxembourgish | [mk Македонски](/.github/README_MK.md) Macedonian | [mg Malagasy](/.github/README_MG.md) Malagasy | [ms Bahasa Melayu](/.github/README_MS.md) Malay | [ml മലയാളം](/.github/README_ML.md) Malayalam | [mt Malti](/.github/README_MT.md) Maltese | [mi Maori](/.github/README_MI.md) Maori | [mr मराठी](/.github/README_MR.md) Marathi | [mn Монгол](/.github/README_MN.md) Mongolian | [my မြန်မာ](/.github/README_MY.md) Myanmar (Burmese) | [ne नेपाली](/.github/README_NE.md) Nepali | [no norsk](/.github/README_NO.md) Norwegian | [or ଓଡିଆ (ଓଡିଆ)](/.github/README_OR.md) Odia (Oriya) | [ps پښتو](/.github/README_PS.md) Pashto | [fa فارسی](/.github/README_FA.md) |Persian  [pl polski](/.github/README_PL.md) Polish | [pt português](/.github/README_PT.md) Portuguese | [pa ਪੰਜਾਬੀ](/.github/README_PA.md) Punjabi | No languages available that start with the letter Q | [ro Română](/.github/README_RO.md) Romanian | [ru русский](/.github/README_RU.md) Russian | [sm Faasamoa](/.github/README_SM.md) Samoan | [gd Gàidhlig na h-Alba](/.github/README_GD.md) Scots Gaelic | [sr Српски](/.github/README_SR.md) Serbian | [st Sesotho](/.github/README_ST.md) Sesotho | [sn Shona](/.github/README_SN.md) Shona | [sd سنڌي](/.github/README_SD.md) Sindhi | [si සිංහල](/.github/README_SI.md) Sinhala | [sk Slovák](/.github/README_SK.md) Slovak | [sl Slovenščina](/.github/README_SL.md) Slovenian | [so Soomaali](/.github/README_SO.md) Somali | [[es en español](/.github/README_ES.md) Spanish | [su Sundanis](/.github/README_SU.md) Sundanese | [sw Kiswahili](/.github/README_SW.md) Swahili | [sv Svenska](/.github/README_SV.md) Swedish | [tg Тоҷикӣ](/.github/README_TG.md) Tajik | [ta தமிழ்](/.github/README_TA.md) Tamil | [tt Татар](/.github/README_TT.md) Tatar | [te తెలుగు](/.github/README_TE.md) Telugu | [th ไทย](/.github/README_TH.md) Thai | [tr Türk](/.github/README_TR.md) Turkish | [tk Türkmenler](/.github/README_TK.md) Turkmen | [uk Український](/.github/README_UK.md) Ukrainian | [ur اردو](/.github/README_UR.md) Urdu | [ug ئۇيغۇر](/.github/README_UG.md) Uyghur | [uz O'zbek](/.github/README_UZ.md) Uzbek | [vi Tiếng Việt](/.github/README_VI.md) Vietnamese | [cy Cymraeg](/.github/README_CY.md) Welsh | [xh isiXhosa](/.github/README_XH.md) Xhosa | [yi יידיש](/.github/README_YI.md) Yiddish | [yo Yoruba](/.github/README_YO.md) Yoruba | [zu Zulu](/.github/README_ZU.md) Zulu ) Available in 110 languages (108 when not counting English and North Korean, as North Korean has not been translated yet [Read about it here](/OldVersions/Korean(North)/README.md))
+
+Translations in languages other than English are machine translated and are not yet accurate. No errors have been fixed yet as of March 21st 2021. Please report translation errors [here](https://github.com/seanpm2001/<repoName>/issues/). Make sure to backup your correction with sources and guide me, as I don't know languages other than English well (I plan on getting a translator eventually) please cite [wiktionary](https://en.wiktionary.org) and other sources in your report. Failing to do so will result in a rejection of the correction being published.
+
+Note: due to limitations with GitHub's interpretation of markdown (and pretty much every other web-based interpretation of markdown) clicking these links will redirect you to a separate file on a separate page that isn't the intended page. You will be redirected to the [.github folder](/.github/) of this project, where the README translations are hosted.
+
+Translations are currently done with Bing translate and DeepL. Support for Google Translate translations is coming to a close due to privacy concerns.
+
+</details> <!-- End of language switcher section !-->
+
+<!-- /%/2001_TRANSLATION_SECTION.END\%\ !-->
+
+***
+
+<!-- /%/2001_THIS_REPOSITORY_SECTION.BEGIN\%\ !-->
+
+## This repository
+
+<details open><summary><p><b>Click/tap here to expand/collapse the this repository section</b></p></summary>
+
+[`View all files`](/ROOTFILES.base)
+
+| 📁️ Type 📄️ | 🔍️ Location 🔎️ | ℹ️ Purpose ℹ️ |
+|---|---|---|
+| 📁️ Folder/directory | [`/.github/`](/.github/) | GitHub repository configuration data |
+| 📁️ Folder/directory | [`/.gitlab/`](/.gitlab/) | GitLab repository configuration data |
+| 📁️ Folder/directory | [`/Docs/`](/Docs/) | For Flag Simulator documentation (redirect) |
+| 📁️ Folder/directory | [`/LIB/`](/LIB/) | For Flag Simulator libraries |
+| 📁️ Folder/directory | [`/OldVersions/`](/OldVersions/) | For archived old versions of files in this repository |
+| 📁️ Folder/directory | [`/RepoData/`](/RepoData/) | For general repository data (metadata, description) |
+| ⚙️ Configuration file | [`/.editorconfig`](/.editorconfig) | Editor Config file |
+| ⚙️ Configuration file | [`/.gitattributes`](/.gitattributes) | Git Attributes file |
+| ⚙️ Configuration file | [`/.gitignore`](/.gitignore) | Git Ignore file |
+| 🌐️ Webpage file | [`/404.html`](/404.html) | 404 page |
+| 🖼️ Image file | [`/404.jpeg`](/404.jpeg) | Image within 404 page |
+| ⬇️ Markdown file | [`/404.md`](/404.md) | 404 Jekyll page |
+| 👤️ Authors file | [`/AUTHORS`](/AUTHORS) | For displaying the authors of the project (plain text) |
+| 👤️ Authors file | [`/AUTHORS.md`](/AUTHORS.md) | For displaying the authors of the project (Markdown) |
+| 🤖️ Automation configuration file | [`/AUTOMATE2001.yaml`](/AUTOMATE2001.yaml) | For configuring the AUTOMATE2001 software tool to automate tasks on this repository. |
+| 🤖️ Automation configuration file | [`/AUTOMATE2001.yml`](/AUTOMATE2001.yml) | For configuring the AUTOMATE2001 software tool to automate tasks on this repository (copy) |
+| 📋️ Repository list file | [`/Flag-Simulator_REPOLIST.urll`](/Flag-Simulator_REPOLIST.urll) | For displaying a list of all repositories in this project group. |
+| 🖼️ Image file | [`/Flag-Simulator_PlaceholderLogo.svg`](/Flag-Simulator_PlaceholderLogo.svg) | A placeholder logo of a light blue flag |
+| ✒️ Citation file | [`/CITATION.cff`](/CITATION.cff) | For enabling others to site this repository. |
+| 👥️ Contributions file | [`/CONTRIBUTING.md`](/CONTRIBUTING.md) | For listing instructions on what can/cannot be contributed to this project. |
+| 💳️ License file | [`/COPYINGL`](/COPYINGL) | A license hub that explains license usage for this project. |
+| 👤️ Credits file | [`/Credits`](/Credits) | For displaying the credits for the project (plain text) |
+| 👤️ Credits file | [`/Credits.wiki`](/Credits.wiki) | For displaying the credits for the project (WikiText) |
+| 🖼️ Image file | [`/DRM-free_label.en.svg`](/DRM-free_label.en.svg) | An image file that emphasizes this projects Anti-DRM stance. |
+| 1️⃣️ Initial file | [`/INITIAL_COMMIT.txt`](/INITIAL_COMMIT.txt) | A file that was generated alongside the repository, and represents the first commit |
+| 🔺️ Installation file | [`/INSTALL`](/INSTALL) | A file that gives instructions on how to install this project (plain text) |
+| 🔺️ Installation file | [`/INSTALL.rst`](/INSTALL.rst) | A file that gives instructions on how to install this project (reStructuredText) |
+| 🖥️ Linux Desktop entry file | [`/K.desktop`](/K.desktop) | A Linux desktop entry file for this project, allowing it to be easily launched on UNIX-like systems |
+| 💳️ License file | [`/LICENSE-GPL.py`](/LICENSE-GPL.py) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL.py3`](/LICENSE-GPL.py3) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL.pyt`](/LICENSE-GPL.pyt) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL.txt`](/LICENSE-GPL.txt) | A GNU GPL3 license file for this project, with the Plain Text file extension |
+| 💳️ License file | [`/LICENSE-GPL.pyw`](/LICENSE-GPL.pyw) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL3.py`](/LICENSE-GPL3.py) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL3.py3`](/LICENSE-GPL3.py3) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL3.pyt`](/LICENSE-GPL3.pyt) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE-GPL3.txt`](/LICENSE-GPL3.txt) | A GNU GPL3 license file for this project, with the Plain Text file extension |
+| 💳️ License file | [`/LICENSE-GPL3.pyw`](/LICENSE-GPL3.pyw) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE.py`](/LICENSE.py) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE.py3`](/LICENSE.py3) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE.pyt`](/LICENSE.pyt) | A GNU GPL3 license file for this project, with a Python file extension |
+| 💳️ License file | [`/LICENSE.txt`](/LICENSE.txt) | A GNU GPL3 license file for this project, with the Plain Text file extension |
+| 💳️ License file | [`/LICENSE.pyw`](/LICENSE.pyw) | A GNU GPL3 license file for this project, with a Python file extension |
+| ⭐️ README file | [`/README.md`](/README.md) | The main README.md file for this project, explaining how to use this project, and where to start. |
+| 📜️ Rootfiles list file | [`/ROOTFILES.base`](/ROOTFILES.base) | The ROOTFILES base file for this project, listing all files and folders at the root of this repository. |
+| 🛡️ Security file | [`/SECURITY.md`](/SECURITY.md) | For listing security information for this project. |
+| 🖼️ Image file | [`/SponsorButton.png`](/SponsorButton.png) | An image file that shows the GitHub sponsor button in this project. |
+| 1️⃣️ Initial file | [`/Temolate-Python-Other.md`](/Template-Python-Other.md) | An initial file, indicating which branch of the generation template was used to create this repository. |
+| ⚙️ Configuration file | [`/_config.yml`](/_config.yml) | A configuration file for the Jekyll theme on this project. |
+| 🖥️ Windows Desktop entry file | [`/desktop.ini`](/desktop.ini) | The Windows desktop entry file for this project. |
+| 🔨️ Makefile | [`/makefile.mk`](/makefile.mk) | The main GNU Make build file for this project. |
+| 📃️ Pull request template | [`/pull_request_template.md`](/pull_request_template.md) | The pull request template file for this project, a template for starting a Git pull request. |
+| **📁️ Type 📄️** | **🔍️ Location 🔎️** | **ℹ️ Purpose ℹ️** |
+
+</details> <!-- End of this repository section !-->
+
+<!-- /%/2001_THIS-REPOSITORY_SECTION.END\%\ !-->
+
+***
+
 ## Features
 
 <details open><summary><p><b>Click/tap here to expand/collapse the features section</b></p></summary>
@@ -859,7 +1012,13 @@ _End of feature listing._
 
 ***
 
-## Feedback from 2025, April
+## Feedback
+
+<details open><summary><p><b>Click/tap here to expand/collapse the Feedback section</b></p></summary>
+
+Feedback for this project.
+
+### Feedback from 2025, April
 
 <details open><summary><p><b>Click/tap here to expand/collapse the feedback from 2025, April section</b></p></summary>
 
@@ -872,6 +1031,12 @@ Feature idea: Flag stamps
 > [`Early preview documents used to gather feedback (from 2025, April 28th to 2025, May 4th)`](/Docs/Idea-List/1-100/)
 
 </details> <!-- End of Feedback from 2025, April section !-->
+
+[:octocat: `Send feedback`](https://github.com/seanpm2001/Flag-Simulator/discussions/)
+
+_End of feedback_
+
+</details> <!-- End of feedback section !-->
 
 ***
 
@@ -1290,18 +1455,32 @@ Feature checklist in README
 
 ***
 
+## Common tags
+
+<details open><summary><p lang="en">Click/tap here to expand/collapse this section</p></summary>
+
+Common tags for this project.
+
+| Tags |
+|---|
+| [:octocat: `#flag`](https://github.com/topics/flag/) | [:octocat: `#flags`](https://github.com/topics/flags/) | [:octocat: `#flagwaver`](https://github.com/topics/flagwaver/) | [:octocat: `#flag-simulator`](https://github.com/topics/flag-simulator/) | [:octocat: `#flag-simulator-project`](https://github.com/topics/flag-simulator-project/) | [:octocat: `#flag-simulator-development`](https://github.com/topics/flag-simulator-development/) | [:octocat: `#flag-simulator-docs`](https://github.com/topics/flag-simulator-docs/) | [:octocat: `#flag-simulator-documentation`](https://github.com/topics/flag-simulator-documentation/) | [:octocat: `#seanpm2001-flag-simulator`](https://github.com/topics/seanpm2001-flag-simulator/) | [:octocat: `#vexillology`](https://github.com/topics/vexillology/) |
+
+</details> <!-- End of Common tags section !-->
+
+***
+
 <!-- /%/2001_FILE_INFO_SECTION.BEGIN\%\ !-->
 
-### [ℹ️ File info](#-File-info)
+### File info
 
 <details open><summary><p lang="en">Click/tap here to expand/collapse this section</p></summary>
 
 - **File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
-- **File version:** `3 (2025, Wednesday, May 7th at 06:38 pm PST)`
-- **Line count (including blank lines and compiler line):** `01,480`
-- **Word count:** `07,535`
-- **Character count (with spaces):** `051,007 characters`
-- **Character count (without spaces)** `043,410 characters`
+- **File version:** `4 (2025, Thursday, May 8th at 07:34 pm PST)`
+- **Line count (including blank lines and compiler line):** `01,687`
+- **Word count:** `10,125`
+- **Character count (with spaces):** `069,245 characters`
+- **Character count (without spaces)** `059,395 characters`
 - **Current article language:** `English (EN_USA) for main article` / `Markdown (CommonMark)` / `HTML (HTML 5.3)`
 - **Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
 - **All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
@@ -1459,16 +1638,44 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 
 </details> <!-- End of V3:File History !-->
 
+## Version 4 (2025, Thursday, May 8th at 07:34 pm PST)
+
+<details open><summary><p><b>Click/tap here to expand/collapse the file history section entry for version 4</b></p></summary>
+
+> **Note:** _This is the fourth version._
+
+> **Changes:**
+
+- [x] Updated the File info section
+- [x] Updated the File History section
+- [x] Added the Table of contents section
+- [x] Added the Language switcher section
+- [x] Added the This repository section
+- [x] Added the Common tags section
+- [x] Added the Footer section
+- [ ] No other changes in version 4
+
+</details> <!-- End of V4:File History !-->
+
 _End of file history section._
 
 <!-- TODO
 What to add next (V4):
-Table of contents
-Language switcher
-File listing
+Vexillogical humor resources
+Fix Table of contents
 !-->
 
 </details> <!-- End of File History !-->
+
+<!-- /%/2001_FOOTER_SECTION.BEGIN\%\ !-->
+
+# Footer
+
+You have reached the bottom of this page.
+
+###### EOF
+
+<!-- /%/2001_FOOTER_SECTION.END\%\ !-->
 
 ---
 
