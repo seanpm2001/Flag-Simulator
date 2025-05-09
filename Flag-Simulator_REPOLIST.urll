@@ -2,10 +2,10 @@
 //// Flag-Simulator_REPOLIST.urll
 //// https://github.com/seanpm2001/URLL-Specification
 //// A list of all Flag Simulator project repositories by @seanpm2001
-//// As of 2025, Wednesday, May 7th
+//// As of 2025, Thursday, May 8th
 
 //// ----------------------------------------------------- \\\\
-//// Flag Simulator Project (18)
+//// Flag Simulator Project (26)
 //// ----------------------------------------------------- \\\\
 
 //// Flag Simulator Core (1)
@@ -60,9 +60,31 @@ https://github.com/seanpm2001/Flag-Simulator_DesktopApp_C_Docs
 https://github.com/seanpm2001/Flag-Simulator_DesktopApp_Rust
 https://github.com/seanpm2001/Flag-Simulator_DesktopApp_Rust_Docs
 
+//// Mobile App (8)
+
+//// //// Flag Simulator MobileApp (Java) (2)
+
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_Java
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_Java_Docs
+
+//// //// Flag Simulator MobileApp (Kotlin) (2)
+
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_Kotlin
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_Kotlin_Docs
+
+//// //// Flag Simulator MobileApp (Swift) (2)
+
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_Swift
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_Swift_Docs
+
+//// //// Flag Simulator MobileApp (C) (2)
+
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_C
+https://github.com/seanpm2001/Flag-Simulator_MobileApp_C_Docs
+
 //// ----------------------------------------------------- \\\\
-//// Repo count (Flag Simulator): 18
-//// 1+1+2+2+2+2+2+2+2+2=18
+//// Repo count (Flag Simulator): 26
+//// 1+1+2+2+2+2+2+2+2+2+2+2+2+2=26
 //// ----------------------------------------------------- \\\\
 
 //// ----------------------------------------------------- \\\\
@@ -74,15 +96,15 @@ https://github.com/seanpm2001/Flag-Simulator_DesktopApp_Rust_Docs
 //// Repo count (See also): 0
 //// 0+0=0
 //// ----------------------------------------------------- \\\\
-//// Total repo count: 18
-//// 18+0=18
+//// Total repo count: 26
+//// 26+0=26
 //// ----------------------------------------------------- \\\\
 
 //// ----------------------------------------------------- \\\\
 //// File info
 //// File type: URLL v3 list file (*.urll)
-//// File version: 3 (2025, Wednesday, May 7th at 06:41 pm PST)
-//// Line count (including blank lines and compiler line): 89
+//// File version: 4 (2025, Thursday, May 8th at 06:36 pm PST)
+//// Line count (including blank lines and compiler line): 111
 //// ----------------------------------------------------- \\\\
 
 //// End of file
