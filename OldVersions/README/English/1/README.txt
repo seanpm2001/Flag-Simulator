@@ -54,7 +54,57 @@ It is intended to be an improvement over [:octocat: `Krikienoid/FlagWaver`](http
 - - [01.22 - Customizable flag poles](#Customizable-flag-poles)
 - - [01.23 - Totem pole library](#Totem-pole-library)
 - - [01.24 - Flag poles](#Flag-poles)
-- - ... INCOMPLETE ...
+- - [01.25 - SVG, PNG, JPEG, GIF, TIFF, BMP, WEBP, NETP, ICO, GIF_C200, among other supported formats](#SVG-PNG-JPEG-GIF-TIFF-BMP-WEBP-NETP-ICO-GIF-C200-among-other-supported-formats)
+- - [01.26 - Various buttons](#Various-buttons)
+- - [01.27 - Ability to send an army to take down the flag](#Ability-to-send-an-army-to-take-down-the-flag)
+- - [01.28 - Offline functionality](#Offline-functionality)
+- - [01.29 - Rain and weather effects](#Rain-and-weather-effects)
+- - [01.30 - Play audio (national anthems, and anthem library)](#Play-audio-national-anthems-and-anthem-library)
+- - [01.31 - Simulate real weather (with weather services, and data files for weather events)](#Simulate-real-weather-with-weather-services-and-data-files-for-weather-events))
+- - [01.32 - Flag construction mode](#Flag-construction-mode)
+- - [01.33 - Flag folding](#Flag-folding)
+- - [01.34 - Lighting, lighting modes](#Lighting-lighting-modes)
+- - [01.35 - Shine a light](#Shine-a-light)
+- - [01.36 - Flashlight (movable with cursor/finger)](#Flashlight-movable-with-cursor-finger)
+- - [01.37 - Customizable flashlight, different light colors, sizes, strengths of light](#Customizable-flashlight-different-light-colors-sizes-strengths-of-light)
+- - [01.38 - Flag weaving](#Flag-weaving)
+- - [01.39 - Buy an actual flag (based on the one shown)](#Buy-an-actual-flag-based-on-the-one-shown))
+- - [01.40 - FIAV flag](#FIAV-flag)
+- - [01.41 - Default flag](#Default-flag)
+- - [01.42 - Homepage](#Homepage)
+- - [01.43 - Fire arrows](#Fire-arrows)
+- - [01.44 - Other items to throw](#Other-items-to-throw)
+- - [01.45 - Flag Emoji mode](#Flag-Emoji-mode)
+- - [01.46 - Flag Emoji import](#Flag-Emoji-import)
+- - [01.47 - Flag search (search for a flag, Emojis also work as a search option)](#Flag-search-search-for-a-flag-Emojis-also-work-as-a-search-option)
+- - [01.48 - User interface skins](#User-interface-skins)
+- - [01.49 - Censorship modes for hate flags, Socialist/Communist flags, terrorist flags, etc](#Censorship-modes-for-hate-flags-Socialist-Communist-flags-terrorist-flags-etc)
+- - [01.50 - Age rating](#Age-rating)
+- - [01.51 - Desktop application (with ports in Python, Java, C, and Rust)](#Desktop-application-with-ports-in-Python-Java-C-and-Rust)
+- - [01.52 - Web application (with ports in Ruby, JavaScript, PHP, and WebAssembly)](#Web-application-with-ports-in-Ruby-JavaScript-PHP-and-WebAssembly)
+- - [01.53 - Mobile application (with ports in Java, Kotlin, Swift, and C)](#Mobile-application-with-ports-in-Java-Kotlin-Swift-and-C)
+- - [01.54 - Flag text and copy text from flag](#Flag-text-and-copy-text-from-flag)
+- - [01.55 - ASCII mode, with text color toggle](#ASCII-mode-with-text-color-toggle)
+- - [01.56 - Creating large flags (up to worlds largest)](#Creating-large-flags-up-to-worlds-largest)
+- - [01.57 - Size limit: whatever your system can handle (even 1,000,000m by 1,000,000m would be allowed) theoretical end at 9,223,372,036,854,775,807 (2^64) square pixels](#Size-limit-whatever-your-system-can-handle-even-1-000-000m-by-1,000-000m-would-be-allowed-theoretical-end-at-9-223-372-036-854-775-807-2-64-square-pixels)
+- - [01.58 - Flag code dictionary](#Flag-code-dictionary)
+- - [01.59 - Flag creator: Your own flag (built-in editor) add description, colors, shapes, graphics, text mode, description, and flag code](#Flag-creator-Your-own-flag-built-in-editor-add-description-colors-shapes-graphics-text-mode-description-and-flag-code)
+- - [01.60 - Color modes: monochrome, 4 bit, 5 bit, 6 bit, 7 bit, 8 bit, 12 bit, 16 bit, 24 bit, 32 bit, 48 bit, 64 bit](#Color-modes-monochrome-4-bit-5-bit-6-bit-7-bit-8-bit-12-bit-16-bit-24-bit-32-bit-48-bit-64-bit)
+- - [01.61 - Filters](#Filters)
+- - [01.62 - Slideshow mode](#Slideshow-mode)
+- - [01.63 - Customize the area around the flag pole](#Customize-the-area-around-the-flag-pole)
+- - [01.64 - Multiple flag poles](#Multiple-flag-poles)
+- - [01.65 - Flag pole size](#Flag-pole-size)
+- - [01.66 - Flag pole material (metal, wood, etc.)](#Flag-pole-material-metal-wood-etc-)
+- - [01.67 - Flag pole material download](#Flag-pole-material-download)
+- - [01.68 - Dimensional modes: 2D, 3D, 4D](#Dimensional-modes-2D-3D-4D)
+- - [01.69 - Scissors, knives, and swords](#Scissors-knives-and-swords)
+- - [01.70 - Acid raid effect](#Acid-raid-effect)
+- - [01.71 - Fun facts about Vexillology in the UI](#Fun-facts-about-Vexillology-in-the-UI)
+- - [01.72 - Accessories menu and the ability to import new ones (built-in: scissors, knives, swords, fire arrows, flashlight)](#Accessories-menu-and-the-ability-to-import-new-ones-built-in-scissors-knives-swords-fire-arrows-flashlight)
+- - [01.73 - Accessory files: a specialized data file for the project](#Accessory-files-a-specialized-data-file-for-the-project)
+- - [01.74 - Transparency level](#Transparency-level)
+- - [01.75 - Flag stamps](#Flag-stamps)
 - [02.00 - Feedback](#Feedback)
 - - [02.01 - Feedback from 2025, April](#Feedback-from-2025-April)
 - [03.00 - Databases](#Databases)
@@ -71,12 +121,13 @@ It is intended to be an improvement over [:octocat: `Krikienoid/FlagWaver`](http
 - [09.00 - Authors](#Authors)
 - [10.00 - Credits](#Credits)
 - [11.00 - Documentation](#Documentation)
-- [12.00 - Concept from 2025.04.23](#Concept-2025.04.23)
-- [13.00 - Common tags](#Common-tags)
-- [14.00 - File Info](#File-info)
-- [15.00 - File History](#File-history)
-- [16.00 - Footer](#Footer)
-- - [16.99 - EOF](#EOF)
+- [12.00 - Vexillological humor](#Vexillological-humor)
+- [13.00 - Concept from 2025.04.23](#Concept-2025.04.23)
+- [14.00 - Common tags](#Common-tags)
+- [15.00 - File Info](#File-info)
+- [16.00 - File History](#File-history)
+- [17.00 - Footer](#Footer)
+- - [17.99 - EOF](#EOF)
 
 ***
 
@@ -1306,6 +1357,16 @@ Documentation is housed in a separate repository.
 
 ***
 
+### Vexillological humor
+
+Cannot directly link to these sources, due to ethical issues (DRM)
+
+- Reddit: r/vexillologycirclejerk
+- Unknown/various: The Big Bang Theory: Fun with Flags
+- [:octocat: `Suggest another`](https://github.com/seanpm2001/Flag-Simulator/discussions/)
+
+***
+
 ## Concept 2025.04.23
 
 <details open><summary><p><b>Click/tap here to expand/collapse the Concept 2025.04.23 section</b></p></summary>
@@ -1461,8 +1522,6 @@ Feature checklist in README
 
 Common tags for this project.
 
-| Tags |
-|---|
 | [:octocat: `#flag`](https://github.com/topics/flag/) | [:octocat: `#flags`](https://github.com/topics/flags/) | [:octocat: `#flagwaver`](https://github.com/topics/flagwaver/) | [:octocat: `#flag-simulator`](https://github.com/topics/flag-simulator/) | [:octocat: `#flag-simulator-project`](https://github.com/topics/flag-simulator-project/) | [:octocat: `#flag-simulator-development`](https://github.com/topics/flag-simulator-development/) | [:octocat: `#flag-simulator-docs`](https://github.com/topics/flag-simulator-docs/) | [:octocat: `#flag-simulator-documentation`](https://github.com/topics/flag-simulator-documentation/) | [:octocat: `#seanpm2001-flag-simulator`](https://github.com/topics/seanpm2001-flag-simulator/) | [:octocat: `#vexillology`](https://github.com/topics/vexillology/) |
 
 </details> <!-- End of Common tags section !-->
@@ -1476,11 +1535,11 @@ Common tags for this project.
 <details open><summary><p lang="en">Click/tap here to expand/collapse this section</p></summary>
 
 - **File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
-- **File version:** `4 (2025, Thursday, May 8th at 07:34 pm PST)`
-- **Line count (including blank lines and compiler line):** `01,687`
-- **Word count:** `10,125`
-- **Character count (with spaces):** `069,245 characters`
-- **Character count (without spaces)** `059,395 characters`
+- **File version:** `5 (2025, Friday, May 9th at 06:32 pm PST)`
+- **Line count (including blank lines and compiler line):** `01,768`
+- **Word count:** `11,025`
+- **Character count (with spaces):** `074,943 characters`
+- **Character count (without spaces)** `064,435 characters`
 - **Current article language:** `English (EN_USA) for main article` / `Markdown (CommonMark)` / `HTML (HTML 5.3)`
 - **Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
 - **All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
@@ -1500,6 +1559,8 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 # File history
 
 <details open><summary><p><b>Click/tap here to expand/collapse the file history section</b></p></summary>
+
+---
 
 ## Version 1 (2025, Monday, May 5th at 09:55 pm PST)
 
@@ -1598,6 +1659,8 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 
 </details> <!-- End of V1:File History !-->
 
+---
+
 ## Version 2 (2025, Tuesday, May 6th at 05:40 pm PST)
 
 <details open><summary><p><b>Click/tap here to expand/collapse the file history section entry for version 2</b></p></summary>
@@ -1617,6 +1680,8 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 - [ ] No other changes in version 2
 
 </details> <!-- End of V2:File History !-->
+
+---
 
 ## Version 3 (2025, Wednesday, May 7th at 06:38 pm PST)
 
@@ -1638,6 +1703,8 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 
 </details> <!-- End of V3:File History !-->
 
+---
+
 ## Version 4 (2025, Thursday, May 8th at 07:34 pm PST)
 
 <details open><summary><p><b>Click/tap here to expand/collapse the file history section entry for version 4</b></p></summary>
@@ -1657,13 +1724,27 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 
 </details> <!-- End of V4:File History !-->
 
-_End of file history section._
+---
 
-<!-- TODO
-What to add next (V4):
-Vexillogical humor resources
-Fix Table of contents
-!-->
+## Version 5 (2025, Friday, May 9th at 06:32 pm PST)
+
+<details open><summary><p><b>Click/tap here to expand/collapse the file history section entry for version 5</b></p></summary>
+
+> **Note:** _This is the fifth version, and the final consecutive version for now._
+
+> **Changes:**
+
+- [x] Updated the File info section
+- [x] Updated the File History section
+- [x] Updated the Table of contents section
+- - [x] Added remaining feature sections
+- - [x] Added link to Vexillological humor section
+- [x] Added the Vexillological humor section
+- [ ] No other changes in version 5
+
+</details> <!-- End of V5:File History !-->
+
+_End of file history section._
 
 </details> <!-- End of File History !-->
 
