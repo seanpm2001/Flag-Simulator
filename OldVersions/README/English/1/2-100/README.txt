@@ -1104,7 +1104,7 @@ Custom databases that can be used within the Flag Simulator project.
 Repository listing:
 
 - [:octocat: `Flag-Simulator_DB_FOTW`](https://github.com/seanpm2001/Flag-Simulator_DB_FOTW/)
-- - [:octocat: `Flag-Simulator_DB_FOTW_Docs`](https://github.com/seanpm2001/Flag-Simulator_DB_FOT_Doc/)
+- - [:octocat: `Flag-Simulator_DB_FOTW_Docs`](https://github.com/seanpm2001/Flag-Simulator_DB_FOTW_Docs/)
 
 </details> <!-- End of FOTW database section !-->
 
@@ -1535,11 +1535,11 @@ Common tags for this project.
 <details open><summary><p lang="en">Click/tap here to expand/collapse this section</p></summary>
 
 - **File type:** `Markdown document (*.md *.mkd *.mdown *.markdown)`
-- **File version:** `5 (2025, Friday, May 9th at 06:32 pm PST)`
-- **Line count (including blank lines and compiler line):** `01,768`
-- **Word count:** `11,025`
-- **Character count (with spaces):** `074,943 characters`
-- **Character count (without spaces)** `064,435 characters`
+- **File version:** `6 (2025, Thursday, May 22nd at 05:33 pm PST)`
+- **Line count (including blank lines and compiler line):** `01,787`
+- **Word count:** `11,098`
+- **Character count (with spaces):** `075,418 characters`
+- **Character count (without spaces)** `064,827 characters`
 - **Current article language:** `English (EN_USA) for main article` / `Markdown (CommonMark)` / `HTML (HTML 5.3)`
 - **Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
 - **All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
@@ -1743,6 +1743,25 @@ View this segment [in a separate file](/Segments/File-info/README.md)
 - [ ] No other changes in version 5
 
 </details> <!-- End of V5:File History !-->
+
+---
+
+## Version 6 (2025, Thursday, May 22nd at 05:33 pm PST)
+
+<details open><summary><p><b>Click/tap here to expand/collapse the file history section entry for version 6</b></p></summary>
+
+> **Note:** _This is the sixth version, which fixes some typos.._
+
+> **Changes:**
+
+- [x] Updated the File info section
+- [x] Updated the File History section
+- [x] Updated the Databases section
+- [ ] No other changes in version 6
+
+</details> <!-- End of V6:File History !-->
+
+---
 
 _End of file history section._
 
